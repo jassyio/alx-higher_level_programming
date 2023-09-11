@@ -1,14 +1,11 @@
 #!/usr/bin/python3
-lookup = __import__('0-lookup').lookup
+"""
+Module 0-lookup
 
-class MyClass1(object):
-    pass
+Contains method lookup that returns list of object's attribute and methods
+"""
 
-class MyClass2(object):
-    my_attr1 = 3
-    def my_meth(self):
-        pass
 
-print(lookup(MyClass1))
-print(lookup(MyClass2))
-print(lookup(int))
+def lookup(obj):
+    """returns list of object's attribute and methods"""
+    return dir(obj)
