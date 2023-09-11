@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-def lookup(obj):
-    """ Function that returns the list of available attributes
-        and methods of an object
+lookup = __import__('0-lookup').lookup
 
-    Args:
-        obj: instance of the class
+class MyClass1(object):
+    pass
 
-    Returns:
-        List of attributes
-    """
+class MyClass2(object):
+    my_attr1 = 3
+    def my_meth(self):
+        pass
 
-    return dir(obj)
+print(lookup(MyClass1))
+print(lookup(MyClass2))
+print(lookup(int))
