@@ -1,11 +1,7 @@
 #!/usr/bin/python3
-class MyInt(int):
-    """ Class that inherits from class int"""
+"""Define an object attribute lookup function."""
 
-    def __eq__(self, other):
-        """ Method that returns != check """
-        return int.__ne__(self, other)
 
-    def __ne__(self, other):
-        """ Method that returns == check """
-        return int.__eq__(self, other)
+def lookup(obj):
+    """Returns a list of an object's available attribute."""
+    return (dir(obj))
