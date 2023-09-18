@@ -1,5 +1,5 @@
-
-dule for test Base class """
+#!/usr/bin/python3
+""" Module that contains class Square,"""
 import unittest
 from models.base import Base
 from models.square import Square
