@@ -1,5 +1,5 @@
-
-dule that contains class Square,
+#!/usr/bin/python3
+""" Module that contains class Square,
 inheritance of class Rectangle
 """
 from models.rectangle import Rectangle
