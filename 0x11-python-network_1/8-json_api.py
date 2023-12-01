@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Python script that sends a POST request to the URL and
 to an URL with the letter as a parameter

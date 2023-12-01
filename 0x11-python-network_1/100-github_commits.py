@@ -3,6 +3,7 @@
 Python script that shows the last 10 commits of a repository
 in GitHub
 """
+
 import sys
 import requests
 

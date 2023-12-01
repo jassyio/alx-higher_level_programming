@@ -3,6 +3,7 @@
 Python script that takes GitHub credentials
 and uses the GitHub API to display the user id
 """
+
 import sys
 import requests
 from requests.auth import HTTPBasicAuth
